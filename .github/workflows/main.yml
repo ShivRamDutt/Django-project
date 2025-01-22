@@ -21,8 +21,8 @@ jobs:
     
       - name: Build Docker image
         run: |
-          docker build -t vishalkumar112/IMAGE_NAME:latest .
+          docker build -t vishalkumar112/shiv:latest .
 
       - name: Push Docker image
         run: |
-          docker push vishalkumar112/IMAGE_NAME:latest
+          docker push vishalkumar112/shiv:latest
