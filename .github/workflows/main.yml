@@ -21,7 +21,7 @@ jobs:
     
       - name: Build Docker image
         run: |
-          docker build -t vishalkumar112/shivdjango.
+          docker build -t vishalkumar112/shivdjango .
 
       - name: Push Docker image
         run: |
