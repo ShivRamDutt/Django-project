@@ -25,4 +25,4 @@ jobs:
 
       - name: Push Docker image
         run: |
-          docker push vishalkumar112/shiv:latest
+          docker push vishalkumar112/shiv_django
